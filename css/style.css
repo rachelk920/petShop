@@ -1,0 +1,24 @@
+body {
+    background-color: #CAD49D !important;
+    color: #456F41;
+}
+
+nav {
+    position: fixed;
+    color: #C0D8E0 !important;
+}
+
+#navbar {
+    color: #C0D8E0 !important;
+}
+
+/* .navbar-brand {
+    color: #326a85 !important;    
+    background-color: #C0D8E0 !important;
+
+} */
+
+.nav-link {
+    color: #CAD49D !important;
+}
+
