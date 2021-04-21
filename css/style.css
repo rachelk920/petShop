@@ -1,24 +1,35 @@
 body {
-    background-color: #CAD49D !important;
-    color: #456F41;
+    background-color: #F2E9DC !important;
+    color: #4E6941;
+    font-family: Balsamiq sans;
 }
 
 nav {
     position: fixed;
-    color: #C0D8E0 !important;
+    color: #4E6941;
+    /* background: rgba(242, 233, 220, .1)!important; */
 }
 
 #navbar {
-    color: #C0D8E0 !important;
+    background: rgba(242, 233, 220, .8)!important;
 }
 
-/* .navbar-brand {
-    color: #326a85 !important;    
-    background-color: #C0D8E0 !important;
+.navbar-brand {
+    color: #4E6941 !important;    
+    /* background-color: #C0D8E0 !important; */
 
-} */
+}
 
 .nav-link {
-    color: #CAD49D !important;
+    color: #4E6941 !important;
 }
 
+.headerimg {
+    width: 100%;
+}
+
+footer {
+    background-color: #4E6941;
+    text-align: center;
+    color: #F2E9DC;
+}

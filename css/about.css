@@ -1,4 +1,55 @@
 body {
-    background-color: #D2D5CE;
-    color: #326A85;
+    background-color: #F2E9DC !important;
+    color: #4E6941;
+    font-family: Balsamiq sans;
+}
+
+nav {
+    position: fixed;
+    color: #4E6941;
+    /* background: rgba(242, 233, 220, .1)!important; */
+}
+
+#navbar {
+    background: rgba(242, 233, 220, .8)!important;
+}
+
+.navbar-brand {
+    color: #4E6941 !important;    
+    /* background-color: #C0D8E0 !important; */
+
+}
+
+.nav-link {
+    color: #4E6941 !important;
+}
+
+.headerimg {
+    width: 100%;
+}
+
+footer {
+    background-color: #4E6941;
+    text-align: center;
+    color: #F2E9DC;
+}
+
+.container {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.svcs:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
