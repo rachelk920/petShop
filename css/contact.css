@@ -50,6 +50,6 @@ footer {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#firstname {
-    color: #4E6941;
-}
+/* .form-control {
+    background-color: rgba(78, 105, 65, .7)
+} */
