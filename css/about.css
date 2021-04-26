@@ -55,10 +55,16 @@ footer {
 h1 {
     text-align: center;
 }
-p {
+p, h5 {
     text-align: center;
 }
 
 .headerimg {
     width: 100%;
+}
+
+.card {
+    
+    background-color: #F3F5F2;
+    border: #F3F5F2;
 }
