@@ -59,12 +59,16 @@ p, h5 {
     text-align: center;
 }
 
+h5 {
+    color: #f959b1;
+}
+
 .headerimg {
     width: 100%;
 }
 
 .card {
-    color: #f959b1;
+    color: #5BDDF5;
     background-color: #F3F5F2;
     border: #F3F5F2;
 }
