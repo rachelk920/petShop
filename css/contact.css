@@ -25,6 +25,11 @@ nav {
 .nav-link {
     color: #06E6B0 !important;
 }
+
+.nav-link:hover {
+    color: #f959b1 !important;
+}
+
 .headerimg {
     width: 100%;
 }
