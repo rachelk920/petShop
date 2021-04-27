@@ -42,7 +42,9 @@ h2 {
     text-align: center;
 }
 
-
+#hours{
+    color: #f959b1;
+}
 footer {
     background-color: #5BDDF5;
     text-align: center;
@@ -58,9 +60,6 @@ footer {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/* .form-control {
-    background-color: rgba(78, 105, 65, .7)
-} */
 
 .headerimg {
     width: 100%;
