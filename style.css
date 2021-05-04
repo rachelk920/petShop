@@ -135,3 +135,34 @@ footer {
 .headerimg {
     width: 100%;
 }
+
+#market {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#market img {
+    margin: 10px;
+}
+
+#market button {
+    margin-bottom: 50px;
+}
+
+#market h5 {
+    margin: 0px 0px 0px;
+}
+
+h4 {
+    color: #5bddf5;
+    
+    margin-top: 2px;
+}
+
+#logodiv {
+    max-height: 80px;
+    margin-bottom: 75px;
+}

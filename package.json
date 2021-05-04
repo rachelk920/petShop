@@ -1,0 +1,1 @@
+{"target":"confetti-holder","max":"999","size":"1","animate":true,"props":["circle","square","triangle","line"],"colors":[[249,89,177],[6,230,176],[91,221,245],[248,181,76]],"clock":"25","rotate":true,"width":"1440","height":"9999","start_from_edge":false,"respawn":true}
