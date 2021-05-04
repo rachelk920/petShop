@@ -44,8 +44,6 @@ footer {
     text-align: center;
 }
 
-
-
 .container {
     text-align: center;
 }
@@ -165,4 +163,19 @@ h4 {
 #logodiv {
     max-height: 80px;
     margin-bottom: 75px;
+}
+#confetti-holder {
+    width: 100%;
+    position: fixed;
+    /* size: 5px; */
+    justify-items: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    height: 100%;
 }
