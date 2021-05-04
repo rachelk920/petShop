@@ -2,50 +2,50 @@ var shop = [
     {
       title: 'Bubbles',
       image: './imgs/1.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '500',
+      description: '',
     },
     {
       title: 'Buddy',
       image: './imgs/2.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '350',
+      description: '',
     },
     {
       title: 'Rosie',
       image: './imgs/3.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '750',
+      description: '',
     },
     {
       title: 'Princess',
       image: './imgs/4.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '650',
+      description: '',
     },
     {
       title: 'Whiskers',
       image: './imgs/5.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '100',
+      description: '',
     },
     {
       title: 'Jack',
       image: './imgs/6.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '125',
+      description: '',
     },
     {
       title: 'Amber',
       image: './imgs/7.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '125',
+      description: '',
     },
     {
       title: 'Bob',
       image: './imgs/8.png', 
-      price: '7,500-15,000',
-      description: 'Buddy',
+      price: '100',
+      description: '',
     },
 
 
@@ -62,16 +62,14 @@ var shop = [
         var heading = '<div class="product ' + '"><span><h5>' + shop[i].title + '</h5>'
         var image = '<img src="' + shop[i].image + '"/>'
         var price = '<p> $' + shop[i].price + '</p></span>'
-        var description = '<div class=""><p>'+ shop[i].description + '</p><button type="button" class="btn btn-warning"> add to cart</button></div></div>'
+        var description = '<div class=""><p>'+ shop[i].description + '</p><button id="button" type="button" class="btn btn-outline-warning"> add to cart</button></div></div>'
         var concatThis = heading + image + price + description;
         postHTML = postHTML + concatThis
     }
     document.getElementById('market').innerHTML = postHTML
 
 
-    // var confettiSettings = { target: 'my-canvas' };
-    // var confetti = new ConfettiGenerator(confettiSettings);
-    // confetti.render();
+
 
 // Konami Code trigger ;)
 const keySequence = [];

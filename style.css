@@ -146,7 +146,7 @@ footer {
     margin: 10px;
 }
 
-#market button {
+#button {
     margin-bottom: 50px;
 }
 
@@ -169,6 +169,7 @@ h4 {
     position: fixed;
     /* size: 5px; */
     justify-items: normal;
+    z-index: -1;
 }
 
 *{
@@ -179,3 +180,48 @@ h4 {
 body,html {
     height: 100%;
 }
+
+#button:hover {
+    background-color: transparent;
+    color: white;
+    border: none;
+    background-image:     linear-gradient(
+       to right, 
+       #F959B1,
+       #F959B1 16.65%,
+       #06E6B0 16.65%,
+       #06E6B0 33.3%,
+       #F8B54C 33.3%,
+       #F8B54C 49.95%,
+       #FB3252 49.95%,
+       #FB3252 66.6%,
+       #5BDDF5 66.6%,
+       #5BDDF5 83.25%,
+       #412E28 83.25%,
+       #412E28 100%,
+       #F959B1 100%
+      
+      
+      
+     );
+   animation:slidebg 3s linear infinite;
+ }
+ 
+ 
+ @keyframes slidebg {
+   to {
+     background-position:20vw;
+   }
+ }
+ 
+ .follow{
+   margin-top: 40px;
+ }
+ 
+ .follow a{
+   color: black;
+   padding: 8px 16px;
+   text-decoration: none;
+ }
+ 
+ 
