@@ -97,7 +97,8 @@ document.addEventListener('keydown', function(e) {
 
 document.addEventListener('keyup', function(e) {
   const doc = document.documentElement;
-  const top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+  // const top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+  const top = (doc.clientTop || 0);
 
   // This make sure it only work
   // when the window `scrollTop` is 0.
@@ -113,3 +114,4 @@ document.addEventListener('keyup', function(e) {
     }
   }
 });
+

@@ -21,7 +21,32 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallaxabout {
+  /* The image used */
+  background-image: url("imgs/Untitled\ design\ \(25\).png");
 
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxabout2 {
+  /* The image used */
+  background-image: url("imgs/cat-931969.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .parallax2 {
   /* The image used */
   background-image: url("imgs/kim-davies-fEK4jvgnApg-unsplash.jpg");
@@ -36,6 +61,19 @@ html {
   background-size: cover;
 }
 
+.parallaxcontact {
+  /* The image used */
+  background-image: url("imgs/My\ Post\ \(21\).png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 nav {
     /* position: sticky; */
@@ -199,6 +237,12 @@ h4 {
   max-height: 80px;
 }
 
+#logodiv2 {
+  display: flex;
+  max-height: 80px;
+
+}
+
 #confetti-holder {
     width: 100%;
     position: fixed;
@@ -315,6 +359,11 @@ body,html {
 
   @media only screen and (max-device-width: 1366px) {
     .parallax {
+      background-attachment: scroll;
+    }
+  }
+  @media only screen and (max-device-width: 1366px) {
+    .parallax2 {
       background-attachment: scroll;
     }
   }
