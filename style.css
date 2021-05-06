@@ -3,6 +3,7 @@ body {
     color: #06E6B0;
     font-family: Balsamiq sans;
     height: 100%;
+    cursor: url(imgs/My\ Post\ \(24\).png), auto;
 }
 
 html {
@@ -381,3 +382,4 @@ body,html {
       max-height: 120px;
     }
    }
+
