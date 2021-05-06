@@ -301,23 +301,7 @@ body,html {
    text-decoration: none;
  }
  
- /* #market img {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-  }
-  #market img:hover, #market img:focus, #market img:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  } */
-/* Buzz */
+ 
 @-webkit-keyframes hvr-buzz {
     50% {
       -webkit-transform: translateX(3px) rotate(2deg);
@@ -393,25 +377,7 @@ body,html {
       margin-top: 55px;
       max-height: 330px;
     }
+    .svcs img {
+      max-height: 120px;
+    }
    }
-/* 
-  @media (max-width: 390px) {
-    .parallax  {
-      margin-top: 55px;
-      max-height: 330px;
-    }
-    .parallax2 {
-      max-height: 330px;
-    }
-    .parallaxabout {
-      margin-top: 55px;
-      max-height: 330px;
-    }
-    .parallaxabout2 {
-      max-height: 330px;
-    }
-    .parallaxcontact {
-      margin-top: 55px;
-      max-height: 330px;
-    }
-  }  */
