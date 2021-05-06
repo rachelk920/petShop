@@ -185,7 +185,6 @@ footer {
     color: #F3F5F2;
 }
 
-
 #submit {
     color: #f959b1;
 }
@@ -361,9 +360,58 @@ body,html {
     .parallax {
       background-attachment: scroll;
     }
-  }
-  @media only screen and (max-device-width: 1366px) {
     .parallax2 {
       background-attachment: scroll;
     }
+    .parallaxabout {
+      background-attachment: scroll;
+    }
+    .parallaxabout2 {
+      background-attachment: scroll;
+    }
+    .parallaxcontact {
+      background-attachment: scroll;
+    }
   }
+
+  @media (max-width: 1300px) {
+    .parallax  {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+    .parallax2 {
+      max-height: 330px;
+    }
+    .parallaxabout {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+    .parallaxabout2 {
+      max-height: 330px;
+    }
+    .parallaxcontact {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+   }
+/* 
+  @media (max-width: 390px) {
+    .parallax  {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+    .parallax2 {
+      max-height: 330px;
+    }
+    .parallaxabout {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+    .parallaxabout2 {
+      max-height: 330px;
+    }
+    .parallaxcontact {
+      margin-top: 55px;
+      max-height: 330px;
+    }
+  }  */
