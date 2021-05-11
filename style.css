@@ -210,9 +210,13 @@ footer {
     justify-content: center;
 }
 
-#market img {
-    margin: 10px;
+.product {
+  margin: 15px;
 }
+
+/* #market img {
+    margin: 10px;
+} */
 
 #button {
     margin-bottom: 50px;
@@ -221,6 +225,12 @@ footer {
 #market h5 {
     margin: 0px 0px 0px;
 }
+
+.bit {
+  color: #5bddf5;
+  font-size: 12px;
+}
+
 
 h4 {
     color: #5bddf5;
@@ -329,6 +339,7 @@ body,html {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    padding-bottom: 10px;
   }
   #market img:hover, #market img:focus, #market img:active {
     -webkit-animation-name: hvr-buzz;
@@ -338,7 +349,7 @@ body,html {
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 6;
   }
 
   @media only screen and (max-device-width: 1366px) {
