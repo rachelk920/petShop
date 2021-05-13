@@ -21,7 +21,7 @@ var shop = [
       title: 'Princess',
       image: './imgs/4.png', 
       price: '650',
-      description: 'Don\'t let the name fool you, Pricess is our little tough guy. <br> He has quite the protective personality and is not <br>the least bit bothered by the implications of his name.',
+      description: 'Don\'t let the name fool you, Princess is our little tough guy. <br> He has quite the protective personality and is not <br>the least bit bothered by the implications of his name.',
     },
     {
       title: 'Whiskers',
